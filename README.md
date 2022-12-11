@@ -1,5 +1,5 @@
 # wox-timeconvertor
-An wox plugin that do time convert, including i18n features.
+A wox plugin that do time convert, including i18n features.
 
 You can just download it use wpm.
 ```
