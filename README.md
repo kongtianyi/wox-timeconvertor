@@ -3,8 +3,10 @@ An wox plugin that do time convert, including i18n features.
 
 You can just download it use wpm.
 ```
-wpm install Time Convertor
+wpm install TimeConvertor
 ```
+
+Plugin Page: [http://www.wox.one/plugin/407](http://www.wox.one/plugin/407)
 
 ## Input Format
 ```

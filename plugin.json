@@ -1,7 +1,7 @@
 {
   "ID":"24ed9eee790d11ed94b7744ca1ab2efe",
   "ActionKeyword": "ts",
-  "Name": "Time Convertor",
+  "Name": "TimeConvertor",
   "Description": "An wox plugin that do time convert, including i18n features.",
   "Author": "KTY",
   "Version": "1.1.0",
