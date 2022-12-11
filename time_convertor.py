@@ -83,7 +83,7 @@ class Main(Wox):
                 query_datetime = query_subject
                 from_timezone = None
             time_data = datetime.strptime(query_datetime, "%Y-%m-%d %H:%M:%S")
-            time_data = time_data.replace(tzinfo=from_timezone)
+            time_data = time_data.replace(tzinfo=from_timezone.timezone if from_timezone is not None else None)
             timestamp = int(time_data.timestamp())
             self.add_item(result, TIMESTAMP, timestamp)
             for _timezone in timezone_list:
