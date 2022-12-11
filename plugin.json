@@ -4,7 +4,7 @@
   "Name": "Time Convertor",
   "Description": "An wox plugin that do time convert, including i18n features.",
   "Author": "KTY",
-  "Version": "1.0.0",
+  "Version": "1.1.0",
   "Language": "python",
   "Website": "https://github.com/kongtianyi/wox-timeconvertor",
   "IcoPath": "ui\\icon.png",
