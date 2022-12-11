@@ -149,6 +149,19 @@ class Main(Wox):
             return False
         return True
 
+    def is_datetime(self, params):
+        if len(params) < 2:
+            return False
+        dt = " ".join([params[0], params[1]])
+        sharp_index = dt.find('#')
+        if sharp_index != -1:
+            dt = dt[:sharp_index]
+        try:
+            datetime.strptime(dt, "%Y-%m-%d %H:%M:%S")
+        except:
+            return False
+        return True
+
     def parse_timestamp(self, value: str) -> int:
         data = int(value)
         strlen = len(value)
